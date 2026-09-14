@@ -1,3 +1,4 @@
+package pro0908;
 import java.util.Scanner;
 
 public class ScannerEx {
