@@ -1,16 +1,9 @@
 package pro0914;
-import java.util.Scanner;
 
 public class TernaryOperator {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        int a = 3, b = 5;
 
-        System.out.print("두 개의 정수를 입력하시오: ");
-        int a = scanner.nextInt();
-        int b = scanner.nextInt();
-
-        System.out.println(a + "과 " + b + "의 차는 " + ((a > b) ? (a - b) : (b - a)) + "입니다.");
-
-        scanner.close();
+        System.out.println("두 수의 차는 " + ((a > b) ? (a - b) : (b - a)));
     }
 }
