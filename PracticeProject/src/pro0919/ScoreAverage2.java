@@ -1,0 +1,11 @@
+package pro0919;
+
+public class ScoreAverage2 {
+    public static void main(String[] args) {
+        double score[][] = {{3.3, 3.4},
+                            {3.5, 3.6},
+                            {3.7, 4.0},
+                            {4.1, 4.2}};
+
+    }
+}
