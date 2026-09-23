@@ -1,14 +1,18 @@
-package pro0919;
+package pro0921.practice;
 
 public class foreachEx {
     enum Week {월, 화, 수, 목, 금, 토, 일}
 
     public static void main(String[] args) {
-        int[] n = {1, 2, 3, 4, 5};
+        int myId = 2025314032;
+        String myName = "허영훈";
+        System.out.println("학번: " + myId + "\n" + "이름: " + myName + "\n");
+
+        double[] n = {1.1, 2.2, 3.3, 4.4, 5.5};
         String names[] = {"사과", "배", "바나나", "체리", "딸기", "포도"};
 
-        int sum = 0;
-        for (int k : n) {
+        double sum = 0;
+        for (double k : n) {
             System.out.print(k + " ");
             sum += k;
         }

@@ -1,4 +1,4 @@
-package pro0919;
+package pro0921.practice;
 
 public class ScoreAverage {
     public static void main(String[] args) {
