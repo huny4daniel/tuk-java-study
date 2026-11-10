@@ -1,3 +1,5 @@
+package prcticeTest.정답.S1;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 

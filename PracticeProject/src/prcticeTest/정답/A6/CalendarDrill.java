@@ -1,3 +1,5 @@
+package prcticeTest.정답.A6;
+
 import java.util.Calendar;
 import java.util.Scanner;
 

@@ -1,3 +1,5 @@
+package prcticeTest.정답.C4;
+
 public class ArgsSum {
     public static void main(String[] args) {
         if (args.length == 0) {

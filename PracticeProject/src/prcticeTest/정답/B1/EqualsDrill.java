@@ -1,3 +1,5 @@
+package prcticeTest.정답.B1;
+
 import java.util.Scanner;
 
 class Point {

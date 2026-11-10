@@ -1,3 +1,5 @@
+package prcticeTest.정답.C2;
+
 import java.util.Scanner;
 
 abstract class Calculator {

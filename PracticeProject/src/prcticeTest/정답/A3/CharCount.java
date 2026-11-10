@@ -1,3 +1,5 @@
+package prcticeTest.정답.A3;
+
 import java.util.Scanner;
 
 public class CharCount {

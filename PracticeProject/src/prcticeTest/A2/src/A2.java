@@ -1,3 +1,5 @@
+package prcticeTest.A2.src;
+
 import java.util.Scanner;
 import java.util.StringTokenizer;
 

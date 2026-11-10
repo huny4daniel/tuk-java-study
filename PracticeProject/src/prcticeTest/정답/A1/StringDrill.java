@@ -1,3 +1,5 @@
+package prcticeTest.정답.A1;
+
 import java.util.Scanner;
 
 public class StringDrill {

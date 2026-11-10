@@ -1,3 +1,5 @@
+package prcticeTest.정답.C3;
+
 import java.util.Scanner;
 
 public class IrregularDrill {

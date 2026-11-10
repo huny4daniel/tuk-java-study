@@ -1,3 +1,5 @@
+package prcticeTest.정답.C5;
+
 import java.util.Scanner;
 
 class Calc {

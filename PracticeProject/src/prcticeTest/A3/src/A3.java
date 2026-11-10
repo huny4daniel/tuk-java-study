@@ -1,3 +1,5 @@
+package prcticeTest.A3.src;
+
 import java.util.Scanner;
 
 public class A3 {
