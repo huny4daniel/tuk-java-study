@@ -18,19 +18,16 @@ public class InputDisplayEx extends JFrame {
         c.setBorder(new EmptyBorder(10, 10, 10, 10));
         setContentPane(c);
 
-        // 상단, 하단: 입력 값 표시
         setColoredLabel(nameInfo);
         setColoredLabel(deptInfo);
         c.add(nameInfo, BorderLayout.NORTH);
         c.add(deptInfo, BorderLayout.SOUTH);
 
-        // 좌측: 세로 글자
         JLabel side = new JLabel("<html>입<br>력<br>창</html>", SwingConstants.CENTER);
         side.setPreferredSize(new Dimension(40, 0));
         setColoredLabel(side);
         c.add(side, BorderLayout.WEST);
 
-        // 중앙: 입력 부분 (바탕색 적용 안 함)
         JPanel inputPanel = new JPanel(new GridLayout(3, 2, 10, 10));
         inputPanel.setBorder(new EmptyBorder(10, 10, 10, 10));
         inputPanel.add(new JLabel("이름", SwingConstants.CENTER));

@@ -38,7 +38,7 @@ public class CheckBoxItemEventEx extends JFrame {
     }
 
     class MyItemListener implements ItemListener {
-        private int sum = 0; // 가격의 합
+        private int sum = 0;
 
         @Override
         public void itemStateChanged(ItemEvent e) {
